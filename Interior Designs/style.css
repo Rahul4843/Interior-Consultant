@@ -1,0 +1,228 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #181719;
+    /* background-color: rgb(206, 206, 45); */
+
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 95vw;
+    height: 50px;
+    margin: auto;
+    margin-top: 24px;
+    /* border: 2px solid red; */
+}
+
+.leftnav {
+    width: fit-content;
+    border: 2px solid white;
+    height: fit-content;
+    margin-left: 12px;
+
+
+}
+
+.leftnav h2 {
+    font-family: "Crimson Pro", serif;
+    font-size: 14px;
+    font-weight: 300;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 7px;
+
+}
+
+.rightnav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 43%;
+    height: auto;
+
+}
+
+.rightnav li {
+    list-style: none;
+
+
+}
+
+.rightnav li a {
+    text-decoration: none;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21.94px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.rightnav li a:hover {
+    border-bottom: 2px solid white;
+}
+
+.maincontainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 97vw;
+    margin: auto;
+    margin-top: 70px;
+    height: 650px;
+    overflow: hidden;
+    position: relative;
+
+}
+
+.leftcontainer {
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 30px;
+    margin-top: 5%;
+
+}
+
+.leftcontainer h2 {
+    font-family: Lora;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 61.44px;
+    text-align: left;
+    color: white;
+    margin-bottom: 44px;
+
+}
+
+.leftcontainer p {
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29.26px;
+    text-align: left;
+    color: white;
+    margin-bottom: 44px;
+
+
+}
+
+
+.leftcontainer span {
+
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.94px;
+    text-align: left;
+    color: white;
+    padding: 20px, 0px;
+
+
+}
+
+.rightcontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 55%;
+
+
+}
+
+.rightcontainer img {
+    width: 700px;
+    height: auto;
+
+}
+
+.interiordesigner {
+    color: white;
+    width: 410px;
+    height: 189px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border: 1px solid black;
+    box-shadow: #181719;
+    position: absolute;
+    margin-left: 66%;
+    margin-top: -82px;
+}
+
+.designerimg {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 12px;
+    width: 100%;
+
+
+}
+
+.designerimg img {
+    width: 50px;
+    height: 50%;
+    border-radius: 100px;
+    margin: 12px;
+
+}
+
+
+.designername h1 {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17.07px;
+    text-align: left;
+
+}
+
+.designername span {
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 14.63px;
+    text-align: left;
+
+}
+
+.designdate {
+    width: 100%;
+    margin-left: 12px;
+    margin-top: 8px;
+}
+
+.designdate h3 {
+    font-family: Lora;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30.72px;
+    text-align: left;
+}
+
+.footermessage {
+    width: fit-content;
+    margin: auto;
+    margin-top: 200px;
+
+}
+
+.footermessage h3 {
+
+    color: #A9A9A9;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17.07px;
+    text-align: center;
+
+
+}

@@ -1,0 +1,27 @@
+
+.navigation{
+    width: auto;
+    flex-wrap: wrap;
+    height: fit-content;
+}
+.rightnav{
+    flex-wrap: wrap;
+}
+.maincontainer{
+    flex-direction: column;
+    height: auto;
+    align-items: flex-start;
+    width: 100vw;
+
+}
+
+.leftcontainer{
+    justify-content: flex-start;
+    width: 100%;
+}
+.rightcontainer{
+    width: 100%;
+}
+.interiordesigner{
+    margin-left: 5%;
+}
